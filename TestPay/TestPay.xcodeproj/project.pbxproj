@@ -14,10 +14,10 @@
 		D9B93D0524B23C1E00F156AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B93D0324B23C1E00F156AB /* Main.storyboard */; };
 		D9B93D0724B23C5E00F156AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B93D0624B23C5E00F156AB /* Assets.xcassets */; };
 		D9B93D0A24B23C5E00F156AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B93D0824B23C5E00F156AB /* LaunchScreen.storyboard */; };
-		D9B93D1624B23DCC00F156AB /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B93D1524B23DCC00F156AB /* paytabs-iOS.framework */; };
-		D9B93D1824B23DD700F156AB /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9B93D1724B23DD700F156AB /* Resources.bundle */; };
 		D9B93D1A24B23DE500F156AB /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B93D1924B23DE500F156AB /* StringConstant.swift */; };
 		D9B93D1E24B23F6100F156AB /* NSObject+test.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B93D1D24B23F6100F156AB /* NSObject+test.m */; };
+		D9B93D2024B2468900F156AB /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9B93D1F24B2468900F156AB /* Resources.bundle */; };
+		D9B93D2224B2469200F156AB /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B93D2124B2469200F156AB /* paytabs-iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +32,12 @@
 		D9B93D0624B23C5E00F156AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B93D0924B23C5E00F156AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B93D0B24B23C5E00F156AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9B93D1524B23DCC00F156AB /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "paytabs-iOS.framework"; path = "../../../Documents/TestPayT/TestPayT/paytabs-iOS.framework"; sourceTree = "<group>"; };
-		D9B93D1724B23DD700F156AB /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = ../../../Documents/TestPayT/TestPayT/Resources.bundle; sourceTree = "<group>"; };
 		D9B93D1924B23DE500F156AB /* StringConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
 		D9B93D1B24B23F6000F156AB /* TestPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPay-Bridging-Header.h"; sourceTree = "<group>"; };
 		D9B93D1C24B23F6100F156AB /* NSObject+test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+test.h"; sourceTree = "<group>"; };
 		D9B93D1D24B23F6100F156AB /* NSObject+test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+test.m"; sourceTree = "<group>"; };
+		D9B93D1F24B2468900F156AB /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = "../../../../../Downloads/ios_sdk-v4.0.9-lite/Resources.bundle"; sourceTree = "<group>"; };
+		D9B93D2124B2469200F156AB /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "paytabs-iOS.framework"; path = "../paytabs-iOS.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B93D1624B23DCC00F156AB /* paytabs-iOS.framework in Frameworks */,
 				4EED91DC5033816054CA6478 /* Pods_TestPay.framework in Frameworks */,
+				D9B93D2224B2469200F156AB /* paytabs-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +83,9 @@
 		D9B93CFC24B23C1D00F156AB /* TestPay */ = {
 			isa = PBXGroup;
 			children = (
+				D9B93D2124B2469200F156AB /* paytabs-iOS.framework */,
+				D9B93D1F24B2468900F156AB /* Resources.bundle */,
 				D9B93D1924B23DE500F156AB /* StringConstant.swift */,
-				D9B93D1724B23DD700F156AB /* Resources.bundle */,
-				D9B93D1524B23DCC00F156AB /* paytabs-iOS.framework */,
 				D9B93CFD24B23C1D00F156AB /* AppDelegate.swift */,
 				D9B93CFF24B23C1D00F156AB /* SceneDelegate.swift */,
 				D9B93D0124B23C1D00F156AB /* ViewController.swift */,
@@ -172,7 +172,7 @@
 				D9B93D0A24B23C5E00F156AB /* LaunchScreen.storyboard in Resources */,
 				D9B93D0724B23C5E00F156AB /* Assets.xcassets in Resources */,
 				D9B93D0524B23C1E00F156AB /* Main.storyboard in Resources */,
-				D9B93D1824B23DD700F156AB /* Resources.bundle in Resources */,
+				D9B93D2024B2468900F156AB /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +461,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestPay",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,6 +528,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestPay",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TestPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
